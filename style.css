@@ -15,7 +15,7 @@ height:100vh;
 /********************
 	telephone
 *********************/
-@media (min-width:380px) and (max-width: 380px){
+@media (max-width:380px)/* and (max-width: 380px)*/{
 /*
 .navmobile{
     position: absolute;
