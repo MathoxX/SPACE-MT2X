@@ -273,15 +273,15 @@ height:30%;
     top: 0px;
     left: 0px;
 }
-
+/*
 .mlogo{
 width:400px;
     position: absolute;
     top: 0px;
     left: 21%;
 }
-
-
+*/
+/*
 .tlogo h1{
 font-weight: bold;
 font-size:80px;
@@ -293,7 +293,7 @@ color:#000;
 text-shadow:  0 0 .9em #000000, 0 0 0.9em #000000,
 0 0 0em #000000, 0 0 0.9em #000000;
 }
-
+*/
 
 .footer{
 display:block;
@@ -304,7 +304,7 @@ height:10%;
     bottom: 0%;
     left: 0px;
 }
-
+/*
 .p1{
   color:white;
   font-weight: bold;
@@ -321,12 +321,12 @@ height:10%;
   position: absolute;
   top: 10%;
   right: 2.5%;
-}
+}*/
 
 /******************************
 CENTRE PaGE 
 *******************************/
-.centre{
+/*.centre{
   display:block;
   background: transparent;
   width:100%;
@@ -405,4 +405,4 @@ color:white;
     left: 2%; 
 }
 
-
+*/
