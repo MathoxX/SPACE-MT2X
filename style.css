@@ -15,7 +15,7 @@ width:100%;
 /********************
 	telephone
 *********************/
-@media (min-width:500px) and (max-width: 800px){
+@media (min-width:100px) and (max-width: 800px){
 /*
 .navmobile{
     position: absolute;
