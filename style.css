@@ -15,7 +15,7 @@ width:100%;
 /********************
 	telephone
 *********************/
-@media (min-width:20px) and (max-width: 500px){
+@media (min-width:20px) and (max-width: 720px){
 /*
 .navmobile{
     position: absolute;
@@ -267,7 +267,7 @@ GRAND LOGO
 .plogo{
 display:block;
 background:linear-gradient(15deg, #59B7F0, #ff00ff, #FF2626);
-width:130%;
+width:110%;
 height:30%;
     position: absolute;
     top: 0px;
