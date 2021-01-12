@@ -15,7 +15,7 @@ width:100%;
 /********************
 	telephone
 *********************/
-@media (min-width:20px) and (max-width: 720px){
+@media (min-width:500px) and (max-width: 800px){
 /*
 .navmobile{
     position: absolute;
@@ -330,7 +330,7 @@ CENTRE PaGE
   display:block;
   background: transparent;
   width:100%;
-  height:110%;
+  height:100%;
   position: absolute;
   top: 30%;
   left: 0px;
@@ -340,7 +340,7 @@ CENTRE PaGE
   display:block;
   background: #555555;
   width:90%;
-  height:20%;
+  height:30%;
   position: absolute;
   top: 2%;
   left: 5%;
@@ -352,7 +352,7 @@ CENTRE PaGE
   display:block;
   background: #444445;
   width:100%;
-  height:25%;
+  height:30%;
   position: absolute;
   top: 0%;
   left: 0%;
@@ -399,6 +399,7 @@ color:#BF0000;
 .art1 .ap3{
 color:white;
   font-weight: bold; 
+    font-size:13px;
     position: absolute;
     top: 105%;
     left: 2%;
