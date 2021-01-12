@@ -15,8 +15,8 @@ background-repeat: no-repeat;
 /********************
 	telephone
 *********************/
-@media (min-width:380px)/* and (max-width: 380px)*/{
-/*
+/*@media (min-width:380px)/* and (max-width: 380px){
+
 .navmobile{
     position: absolute;
     top: 0px;
@@ -405,4 +405,4 @@ color:white;
     left: 2%; 
 }
 
-}
+
