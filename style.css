@@ -217,7 +217,7 @@ border-radius:3px;
     border-left: 1px solid rgba(255,255,255,.03);
     position: absolute;
     top: 0px;
-    right: 50px;
+    right: 40px;
 }
 
 .sidenav a {
@@ -237,7 +237,7 @@ border-radius:3px;
 .sidenav .closebtn {
   color:red;
   position: absolute;
-  top: -15.5px;
+  top: 10.5px;
   right: 2px;
   font-size: 50px;
   margin-left: 0px;
