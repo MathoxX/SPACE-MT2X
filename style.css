@@ -280,8 +280,7 @@ width:400px;
     top: 0px;
     left: 21%;
 }
-*/
-/*
+
 .tlogo h1{
 font-weight: bold;
 font-size:80px;
@@ -330,7 +329,7 @@ CENTRE PAGE
   display:block;
   background: transparent;
   width:100%;
-  height:60%;
+  height:40%;
   position: absolute;
   top: 30%;
   left: 0px;
@@ -339,7 +338,7 @@ CENTRE PAGE
 .art1{
   display:block;
   background: #555555;
-  width:95%;
+  width:90%;
   height:30%;
   position: absolute;
   top: 2%;
