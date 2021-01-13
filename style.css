@@ -177,7 +177,7 @@ border-radius:3px;
   top: 0;
   left: 0;
   background-color: #333336;
-  overflow-x: visible;
+  overflow-x: hidden;
   transition: 0.5s;
     -webkit-box-shadow: 10px 0 10px rgba(0,0,0,.3);
     box-shadow: 10px 0 10px rgba(0,0,0,.3);
