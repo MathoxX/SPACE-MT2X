@@ -1,5 +1,5 @@
 body {
- font-family: $body-font;
+font-family: system-ui;
 /*background: linear-gradient(15deg, #59B7F0, #e66465, #FF2626);*/
 /*background: linear-gradient(15deg,#c0c0c0, #414141 55%);*/
   background:#333336;
@@ -15,92 +15,7 @@ background-repeat: no-repeat;
 /********************
 	telephone
 *********************/
-/*@media (min-width:380px)/* and (max-width: 380px){
-
-.navmobile{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 60%;
-    height: 100%;
-    background: #000000;
-    -webkit-box-shadow: 10px 0 10px rgba(0,0,0,.1);
-    box-shadow: 10px 0 10px rgba(0,0,0,.1);
-}
-
-.navheader {
-    width: 100%;
-    height: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    letter-spacing: -.05em;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    position: relative;
-    padding: 0 0 0 20px;
-    border-bottom: 1px solid #eee;
-}
-
-.navclose{
-    border: none;
-    font-size: 30px;
-    background: 0 0;
-    width: 50px;
-    height: 50px;
-    border-left: 1px solid white;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
-.navmobile .navheader h2 {
-    margin: 0 auto 0 0;
-    color: #ff8400;
-    position: relative;
-    top: -1.5px;
-}
-.navclose button {
-    cursor: pointer;
-    border: none;
-    font-size: 30px;
-    background: 0 0;
-    width: 50px;
-    color: rgba(255,255,255,.8);
-    height: 50px;
-    border-left: 1px solid rgba(255,255,255,.05);
-    -webkit-transition: .075s;
-    -o-transition: .075s;
-    transition: .075s;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
-
-.b1{
-display:block;
-background:red;
-width:30px;
-height:5px;
-border-radius:3px;
-transform: rotate(45deg);
-    position: absolute;
-    top: 23px;
-    right: 9px;
-}
-
-.b2{
-display:block;
-background:red;
-width:30px;
-height:5px;
-border-radius:3px;
-transform: rotate(-45deg);
-    position: absolute;
-    top: 23px;
-    right: 9px;
-}*/
-
+@media (min-width:380px) and (max-width: 800px){
 
 .bclose{
 display:block;
@@ -112,6 +27,7 @@ border-radius:100%;
     position: absolute;
     top: 20px;
     left: 15px;
+
 }
 
 .b1{
@@ -123,6 +39,7 @@ border-radius:3px;
     position: absolute;
     top: 10px;
     left: 5px;
+
 }
 
 .b2{
@@ -134,6 +51,7 @@ border-radius:3px;
     position: absolute;
     top: 18px;
     left: 5px;
+
 }
 
 .b2-2{
@@ -145,6 +63,7 @@ border-radius:3px;
     position: absolute;
     top: 18px;
     left: 17px;
+
 }
 
 .b3{
@@ -156,6 +75,7 @@ border-radius:3px;
     position: absolute;
     top: 26px;
     left: 5px;
+
 }
 
 .b3-3{
@@ -167,20 +87,22 @@ border-radius:3px;
     position: absolute;
     top: 26px;
     left: 28px;
+
 }
 
 .sidenav {
   height: 100%;
-  width: 50%;
+  width: 0;
   position: fixed;
-  z-index: 0;
+  z-index: 1;
   top: 0;
   left: 0;
   background-color: #333336;
   overflow-x: hidden;
-  transition: 0.5s;
-    -webkit-box-shadow: 10px 0 10px rgba(0,0,0,.3);
-    box-shadow: 10px 0 10px rgba(0,0,0,.3);
+  transition: 0s;
+  -webkit-box-shadow: 10px 0 10px rgba(0,0,0,.3);
+  box-shadow: 10px 0 10px rgba(0,0,0,.3);
+  opacity:90%;
 
 }
 
@@ -191,6 +113,7 @@ border-radius:3px;
   position: absolute;
   top: 50px;
   left: 0;
+
 }
 
 .navheader {
@@ -206,6 +129,7 @@ border-radius:3px;
     position: relative;
     padding: 0 0 0 20px;
     border-bottom: 1px solid rgba(255,255,255,.03);
+
 }
 
 .navclose{
@@ -217,47 +141,57 @@ border-radius:3px;
     border-left: 1px solid rgba(255,255,255,.03);
     position: absolute;
     top: 0px;
-    right: 30px;
+    right: 12px;
+
 }
 
 .sidenav a {
+font-weight: normal;
   padding: 4px 4px 4px 15px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
+font-family: system-ui;
   display: block;
   transition: 0.3s;
   border-bottom:1px solid rgba(255,255,255,.03);
+
 }
 
 .sidenav a:hover {
+font-weight: normal;
+font-family: system-ui;
   color: #ff2a00;
+
 }
 
 .sidenav .closebtn {
   color:red;
   position: absolute;
   top: -5px;
-  right: 2px;
-  font-size: 50px;
+  right: 10px;
+  font-size: 35px;
   margin-left: 0px;
   border-bottom:1px solid transparent;
+
 }
 
 .sidenav .closebtn:hover {
   color: #990000;
   position: absolute;
   top: -5px;
-  right: 2px;
-  font-size: 50px;
+  right: 10px;
+  font-size: 35px;
   margin-left: 0px;
+
 }
 
 .sidenav .navheader h3 {
     margin: 0 auto 0 0;
     color: #ff0000;
     position: relative;
-    top: 0px;
+    top: -1.5px;
+
 }
 
 /******************************
@@ -272,27 +206,30 @@ height:30%;
     position: absolute;
     top: 0px;
     left: 0px;
+
 }
-/*
+
 .mlogo{
-width:400px;
+width:200px;
     position: absolute;
     top: 0px;
-    left: 21%;
+    left: 25%;
+
 }
+
 
 .tlogo h1{
 font-weight: bold;
-font-size:80px;
+font-size:50px;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 19%;
 color:#000;
-  -webkit-text-stroke: 6px white;
+  -webkit-text-stroke: 3px white;
 text-shadow:  0 0 .9em #000000, 0 0 0.9em #000000,
 0 0 0em #000000, 0 0 0.9em #000000;
 }
-*/
+
 
 .footer{
 display:block;
@@ -302,6 +239,7 @@ height:10%;
     position: absolute;
     bottom: 0%;
     left: 0px;
+
 }
 
 .p1{
@@ -311,6 +249,7 @@ height:10%;
   position: absolute;
   top: 10%;
   left: 15%;
+
 }
 
 .p2{
@@ -320,10 +259,11 @@ height:10%;
   position: absolute;
   top: 30%;
   left: 30%;
+
 }
 
 /******************************
-CENTRE PAGE 
+CENTRE PaGE 
 *******************************/
 .centre{
   display:block;
@@ -333,6 +273,7 @@ CENTRE PAGE
   position: absolute;
   top: 30%;
   left: 0px;
+
 }
 
 .art1{
@@ -351,7 +292,7 @@ CENTRE PAGE
   display:block;
   background: #444445;
   width:100%;
-  height:40%;
+  height:23%;
   position: absolute;
   top: 0%;
   left: 0%;
@@ -361,37 +302,42 @@ CENTRE PAGE
 }
 
 .pp{
-width:55px;
+width:44px;
     position: absolute;
     top: 0%;
     left: 0%;
 border-radius:50%;
 border:1px solid black;
+
 }
 
 .art1-1 .pp{
-width:55px;
+width:44px;
     position: absolute;
     top: 10%;
     left: 2%;
 border-radius:50%;
+
 }
 
 .art1-1 .ap1{
+  font-size:13.5px;
 color:white;
   font-weight: bold; 
     position: absolute;
-    top: 10%;
-    left: 12%;
+    top: 0%;
+    left: 16.5%;
+
 }
 
 .art1-1 .ap2{
 color:#BF0000;
   font-weight: bold; 
-  font-size:13px;
+  font-size:11.5px;
     position: absolute;
-    top: 30%;
-    left: 12%;
+    top: 32%;
+    left: 16.5%;
+
 }
 
 
@@ -400,8 +346,9 @@ color:white;
   font-weight: bold; 
     font-size:13px;
     position: absolute;
-    top: 100%;
+    top: 90%;
     left: 2%; 
+
 }
 
-
+}
