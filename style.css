@@ -186,7 +186,7 @@ border-radius:3px;
 
 .navmenu {
     width: 100%;
-    height: 96.6vh;
+    height: 80%;
     background:transparent;
   position: absolute;
   top: 50px;
@@ -339,7 +339,7 @@ CENTRE PAGE
   display:block;
   background: #555555;
   width:90%;
-  height:50%;
+  height:70%;
   position: absolute;
   top: 2%;
   left: 5%;
@@ -351,7 +351,7 @@ CENTRE PAGE
   display:block;
   background: #444445;
   width:100%;
-  height:50%;
+  height:40%;
   position: absolute;
   top: 0%;
   left: 0%;
